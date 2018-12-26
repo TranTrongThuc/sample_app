@@ -1,0 +1,5 @@
+<% provide :title, t(".about") %>
+<h1><%= t(".about") %></h1>
+<p>
+  <%= t(".announce_about_html", tutorial: link_to(t(".tutorial_link_detail"), t(".tutorial_link")), book: link_to(t(".book_link_detail"), t(".book_link")), screencast: link_to(t(".screencast_link_detail"), t(".screencast_link")), rubyonrails: link_to(t(".rails_link_detail"), t(".rails_link")))%>
+</p>
