@@ -65,3 +65,6 @@ en:
       announce_home_html: "This is the home page for the %{home} sample application."
       home_link: "http://www.railstutorial.org/"
       home_link_detail: "Ruby on Rails Tutorial"
+helpers:
+  application_helper:
+      base_title: "Ruby on Rails Tutorial Sample App"
