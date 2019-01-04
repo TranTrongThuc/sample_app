@@ -82,8 +82,9 @@ en:
       rails_logo: "Rails logo"
       signup: "Sign up now!"
   users:
-    h1: "Sign up"
-    p: "This will be a signup page for new users."
+    new:
+      h1: "Sign up"
+      p: "This will be a signup page for new users."
 helpers:
   application_helper:
       base_title: "Ruby on Rails Tutorial Sample App"
