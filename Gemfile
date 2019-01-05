@@ -7,6 +7,7 @@ end
 
 ruby "2.5.1"
 
+gem "bootstrap-sass", "3.3.7"
 gem "coffee-rails", "~> 4.2"
 gem "jbuilder", "~> 2.5"
 gem "puma", "~> 3.7"

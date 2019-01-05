@@ -33,6 +33,20 @@ en:
   layouts:
     application:
       application_announce: Ruby on Rails Tutorial Sample App
+    footer:
+      footer_announce_html: "The %{railstutorial} by %{author}."
+      railstutorial_link: "http://www.railstutorial.org/"
+      railstutorial_link_detail: "Ruby on Rails Tutorial"
+      author_link: "http://www.michaelhartl.com/"
+      author_link_detail: "Michael Hartl"
+      news_link: "http://news.railstutorial.org/"
+      news_link_detail: "News"
+      about: "About"
+      contact: "Contact"
+    header:
+      home: "Home"
+      help: "Help"
+      login: "Log in"
   static_pages:
     about:
       about: "About"
@@ -65,6 +79,11 @@ en:
       announce_home_html: "This is the home page for the %{home} sample application."
       home_link: "http://www.railstutorial.org/"
       home_link_detail: "Ruby on Rails Tutorial"
+      rails_logo: "Rails logo"
+      signup: "Sign up now!"
+  users:
+    h1: "Sign up"
+    p: "This will be a signup page for new users."
 helpers:
   application_helper:
       base_title: "Ruby on Rails Tutorial Sample App"

@@ -1,0 +1,13 @@
+<footer class="footer">
+  <small>
+    <%= t(".footer_announce_html", railstutorial: link_to(t(".railstutorial_link_detail"), t(".railstutorial_link")),
+      author: link_to(t(".author_link_detail"), t(".author_link"))) %>
+  </small>
+  <nav>
+    <ul>
+      <li><%= link_to t(".about"), about_path %></li>
+      <li><%= link_to t(".contact"), contact_path %></li>
+      <li><%= link_to(t(".news_link_detail"), t(".news_link")) %></li>
+    </ul>
+  </nav>
+</footer>
