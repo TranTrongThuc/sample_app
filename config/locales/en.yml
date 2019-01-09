@@ -30,6 +30,8 @@
 # available at http://guides.rubyonrails.org/i18n.html.
 
 en:
+  err: "The form contains %{errors_count}."
+  error: "error"
   layouts:
     application:
       application_announce: Ruby on Rails Tutorial Sample App
@@ -47,6 +49,8 @@ en:
       home: "Home"
       help: "Help"
       login: "Log in"
+  shared:
+    error: "error"
   static_pages:
     about:
       about: "About"
@@ -85,6 +89,12 @@ en:
     new:
       h1: "Sign up"
       p: "This will be a signup page for new users."
+      btntext: "Create my account"
+      confirm: "confirmation"
 helpers:
   application_helper:
       base_title: "Ruby on Rails Tutorial Sample App"
+controller:
+  flash_success: "Welcome to the Sample App!"
+  new: "new"
+  notification: "No data found!"
