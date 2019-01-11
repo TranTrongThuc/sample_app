@@ -36,6 +36,12 @@ en:
   settings: "Settings"
   err: "The form contains %{errors_count}."
   error: "error"
+  name: "name"
+  email: "email"
+  password: "password"
+  password_confirm: "password_confirmation"
+  confirm: "Confirmation"
+  save_changes: "Save changes"
   layouts:
     application:
       application_announce: Ruby on Rails Tutorial Sample App
@@ -98,11 +104,20 @@ en:
       rails_logo: "Rails logo"
       signup: "Sign up now!"
   users:
+    delete: "delete"
+    you_sure: "You sure?"
     new:
-      h1: "Sign up"
-      p: "This will be a signup page for new users."
+      signup: "Sign up"
       btntext: "Create my account"
       confirm: "Confirmation"
+      edit_user: "Edit user"
+      update_profile: "Update your profile"
+      change: "change"
+    edit:
+      flash_success: "Profile updated"
+      flash_notification: "Please log in."
+    index:
+      all_users: "All users"
   helpers:
     application_helper:
         base_title: "Ruby on Rails Tutorial Sample App"
@@ -111,3 +126,5 @@ en:
     new: "new"
     notification: "No data found!"
     flash_fail: "Invalid email/password combination"
+    user_delete_success: "User deleted"
+    user_delete_fail: "User deleted unsuccess"

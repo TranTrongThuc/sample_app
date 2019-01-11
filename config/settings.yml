@@ -8,5 +8,9 @@ user:
     max_length: 30
   size:
     size: 80
+  validates:
+    minimum: 6
+  gravatar:
+    for_user: 50
 session:
   remember_me: "1"
