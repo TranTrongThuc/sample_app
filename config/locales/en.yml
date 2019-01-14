@@ -31,11 +31,20 @@
 
 en:
   sample app: "Sample App"
+  hi: "Hi"
+  greeting: "Welcome to the Sample App! Click on the link below to activate your account:"
+  activate: "Activate"
   users: "Users"
   profile: "Profile"
   settings: "Settings"
   err: "The form contains %{errors_count}."
   error: "error"
+  name: "name"
+  email: "email"
+  password: "password"
+  password_confirm: "password_confirmation"
+  confirm: "Confirmation"
+  save_changes: "Save changes"
   layouts:
     application:
       application_announce: Ruby on Rails Tutorial Sample App
@@ -57,6 +66,10 @@ en:
   sessions:
     login: "Log in"
     signup_now: "Sign up now!"
+    email: "email"
+    password: "password"
+    remember_me: "remember_me"
+    remember: "Remember me on this computer"
   shared:
     error: "error"
   static_pages:
@@ -94,11 +107,20 @@ en:
       rails_logo: "Rails logo"
       signup: "Sign up now!"
   users:
+    delete: "delete"
+    you_sure: "You sure?"
     new:
-      h1: "Sign up"
-      p: "This will be a signup page for new users."
+      signup: "Sign up"
       btntext: "Create my account"
       confirm: "Confirmation"
+      edit_user: "Edit user"
+      update_profile: "Update your profile"
+      change: "change"
+    edit:
+      flash_success: "Profile updated"
+      flash_notification: "Please log in."
+    index:
+      all_users: "All users"
   helpers:
     application_helper:
         base_title: "Ruby on Rails Tutorial Sample App"
@@ -107,3 +129,12 @@ en:
     new: "new"
     notification: "No data found!"
     flash_fail: "Invalid email/password combination"
+    user_delete_success: "User deleted"
+    user_delete_fail: "User deleted unsuccess"
+    check_email: "Please check your email to activate your account."
+    account_activated: "Account activated!"
+    invalid_activation_link: "Invalid activation link"
+    account_not_active: "Account not activated. Check your email for the activation link."
+    login_fail: "Login fail"
+    update_success: "Your profile update successfully"
+    pls_login: "Please log in"

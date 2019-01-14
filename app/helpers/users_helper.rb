@@ -1,3 +1,4 @@
+require "digest"
 module UsersHelper
   def gravatar_for user, size: Settings.user.size.size
     md5 = Digest::MD5.new
