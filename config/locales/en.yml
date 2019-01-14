@@ -57,6 +57,10 @@ en:
   sessions:
     login: "Log in"
     signup_now: "Sign up now!"
+    email: "email"
+    password: "password"
+    remember_me: "remember_me"
+    remember: "Remember me on this computer"
   shared:
     error: "error"
   static_pages:

@@ -8,3 +8,5 @@ user:
     max_length: 30
   size:
     size: 80
+session:
+  remember_me: "1"
